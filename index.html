@@ -2,9 +2,38 @@
 <html>
 <head>
   <title>My Site</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 40px;
+      background: #f5f5f5;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 700px;
+    }
+    a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello Mannprakriti 👋</h1>
-  <p>GitHub Pages is working!</p>
+  <div class="container">
+    <h1>Hello Mannprakriti 👋</h1>
+    <p>GitHub Pages is working!</p>
+
+    <h2>🚀 Release Environments</h2>
+
+    <a href="./release/dev/">🧪 Development</a>
+    <a href="./release/testing/">🔍 Testing</a>
+    <a href="./release/prod/">🚀 Production</a>
+  </div>
 </body>
 </html>
